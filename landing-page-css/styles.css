@@ -1,0 +1,446 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    width: 100%;
+}
+
+body {
+    margin: 0px;
+    width: 100%;
+
+}
+
+.navbar {
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon {
+    height: 20px;
+    float: left;
+    height: 70px;
+}
+
+img {
+    width: 100px;
+    height: auto;
+    padding: 15px 0px 0px 30px;
+}
+
+.menu {
+    width: 300px;
+    float: left;
+    height: 70px;
+    padding-left: 50px;
+    margin-left: 200px;
+
+}
+
+li {
+    color: gray;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+li:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+
+    cursor: pointer;
+}
+
+ul {
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-top: 30px;
+
+}
+
+ul li {
+    list-style: none;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.login {
+    list-style: none;
+    margin: 0px 20px 0px 800px;
+    font-size: 15px;
+    padding: 15px 20px 10px 100px;
+
+}
+
+.button {
+    background-color: #ffd8db;
+    margin: 0px 20px 25px 10px;
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    border-color: #ffd8db;
+    cursor: pointer;
+    color: #a389cc;
+    font-weight: bold;
+}
+
+.delay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 0px;
+}
+
+.childa {
+    margin: 0px;
+    width: 50%;
+    padding: 20px;
+}
+
+.first {
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    margin-right: 70px;
+
+}
+
+.imgbox {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    position: relative;
+    margin-left: -100px;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    color: black;
+    position: relative;
+    margin-left: 90px;
+    font-family: 'Trebuchet MS';
+    font-size: 60px;
+    margin-top: 40px;
+}
+
+p {
+    padding-top: 30px;
+    margin-left: 100px;
+
+}
+
+.section .par {
+    padding-bottom: 25px;
+    font-family: Arial;
+    line-height: 20px;
+    color: gray;
+    font-weight: 400;
+}
+
+.parent {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.child {
+    margin: 5px;
+}
+
+.cn {
+    background-color: #5243c0;
+    width: 130px;
+    height: 45px;
+    border-radius: 15px;
+    border-color: #5243c0;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.arrow {
+    margin: 0px;
+    width: 55px;
+    height: 45px;
+    padding: 0px;
+}
+
+.down {
+    margin: 0px;
+    width: 55px;
+    height: 45px;
+    padding: 0px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.blogs {
+    margin-right: 25px;
+}
+
+.dmmparent {
+    background-color: rgb(247, 247, 247);
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 2px;
+    width: 350px;
+}
+
+.dmm {
+    margin: 4px;
+}
+
+.blurparent {
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gray-tick {
+    margin: 1px;
+    width: 35px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+}
+
+.user1 {
+    margin: 1px;
+    width: 80px;
+    height: 30px;
+    padding: 15px 0px 0px 5px;
+
+}
+
+.user-pink {
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    padding: 2px 0px 0px 0px;
+
+}
+
+.date1 {
+    margin: 1px;
+    width: 40px;
+    height: 30px;
+    padding: 15px 0px 0px 3px;
+}
+
+.pink {
+    margin: 1px;
+    width: 30px;
+    height: 10px;
+    padding: 0px;
+    background-color: #fed7da;
+    border-radius: 5px;
+    border-color: #fed7da;
+}
+
+.blurparent {
+    background-color: white;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 2px;
+    width: 350px;
+    box-shadow: 2px 2px 5px;
+}
+
+.blur {
+    margin: 4px;
+}
+
+.blue-tick {
+    margin: 1px;
+    width: 35px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+}
+
+.user2 {
+    margin: 1px;
+    width: 80px;
+    height: 30px;
+    padding: 15px 0px 0px 5px;
+
+}
+
+.user-red {
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    padding: 2px 0px 0px 0px;
+
+}
+
+.date2 {
+    margin: 1px;
+    width: 40px;
+    height: 30px;
+    padding: 15px 0px 0px 3px;
+}
+
+.red {
+    margin: 1px;
+    width: 30px;
+    height: 10px;
+    padding: 0px;
+    background-color: #fd6534;
+    border-radius: 5px;
+    border-color: #fd6534;
+}
+
+.illuparent {
+    background-color: rgb(247, 247, 247);
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 2px;
+    width: 350px;
+}
+
+.illustration {
+    margin: 4px;
+}
+
+.gray-tick {
+    margin: 1px;
+    width: 35px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+}
+
+.user3 {
+    margin: 1px;
+    width: 80px;
+    height: 30px;
+    padding: 15px 0px 0px 5px;
+
+}
+
+.user-blue {
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    padding: 2px 0px 0px 0px;
+
+}
+
+.date3 {
+    margin: 1px;
+    width: 40px;
+    height: 30px;
+    padding: 15px 0px 0px 3px;
+}
+
+.blue {
+    margin: 1px;
+    width: 30px;
+    height: 10px;
+    padding: 0px;
+    background-color: #9ed095;
+    border-radius: 5px;
+    border-color: #9ed095;
+}
+
+
+
+.refundparent {
+    background-color: rgb(247, 247, 247);
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+    margin: 2px;
+    width: 350px;
+
+}
+
+.refund {
+    margin: 4px;
+}
+
+.gray-tick {
+    margin: 1px;
+    width: 35px;
+    height: 30px;
+    padding: 2px 0px 0px 0px;
+}
+
+.user4 {
+    margin: 1px;
+    width: 80px;
+    height: 30px;
+    padding: 15px 0px 0px 5px;
+
+}
+
+.user-orange {
+    margin: 1px;
+    width: 30px;
+    height: 30px;
+    padding: 0px;
+    padding: 2px 0px 0px 0px;
+
+}
+
+.date6 {
+    margin: 1px;
+    width: 40px;
+    height: 30px;
+    padding: 15px 0px 0px 3px;
+}
+
+.orange {
+    margin: 1px;
+    width: 30px;
+    height: 10px;
+    padding: 0px;
+    background-color: #ffe4a0;
+    border-radius: 5px;
+    border-color: #ffe4a0;
+}
